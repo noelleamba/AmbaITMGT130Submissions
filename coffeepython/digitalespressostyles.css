@@ -1,0 +1,51 @@
+header {
+  background-color: #D6C9AE;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: auto;
+  margin-top: 0px;
+  text-align: center;
+  height: "150";
+}
+
+h1 {
+  color: #000000;
+  text-align: "center";
+  font-family: "Open Sans";
+}
+
+
+h3 {
+  color: #FFFFFF;
+  text-align: "center";
+  font-family: "Open Sans";
+}
+
+a {
+  font-family: "Open Sans";
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+body {
+  background-color: #9D6659;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+footer {
+  background-color: #D6C9AE;
+  padding: 20px;
+  text-align: center; vertical-align: middle;
+  padding-top:10px;padding-bottom: 10px;padding-left: 30px; padding-right:30px;
+  height:"150";
+
+}
+
+table {
+  margin-right: auto; margin-left: auto;
+  font-family: "Open Sans";
+  color: #FFFFFF;
+  text-align: center;
+}
