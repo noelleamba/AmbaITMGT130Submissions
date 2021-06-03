@@ -1,0 +1,25 @@
+{% include "header.html" %}
+        <h1>Order History</h1>
+
+            {% if order_list is defined %}
+
+            <table>
+                <tr><th>Name</th>
+                  <th>Quantity</th>
+                  <th>Subtotal</th>
+                </tr>
+                {% for order in order_list %}
+                    <tr>
+                      <td>{{ order["name"] }}</td>
+                      <td>{{ order["qty"] }}</td>
+                      <td>{{ order["subtotal"] }}</td>
+                    </tr>
+                {% endfor %}
+            </table>
+
+            {% else %}
+            <div>No orders have been made yet. Please proceed to the product page to buy items.</div>
+            <a href="/products">Back</a>
+            {% endif %}
+
+{% include "footer.html" %}
